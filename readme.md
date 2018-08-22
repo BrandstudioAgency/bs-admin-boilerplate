@@ -1,4 +1,4 @@
-# Brandstudio CMS
+# Brandstudio Admin Boilerplate
 
 Boilerplate for Brandstudio Admin Panel, powered by Laravel 5.6
 
