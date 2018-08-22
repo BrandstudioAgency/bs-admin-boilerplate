@@ -46,7 +46,7 @@ $ php artisan key:generate
 $ php artisan migrate --seed
 ```
 
-## Run
+### Run
 
 To start the PHP built-in server
 ```
@@ -61,6 +61,8 @@ Now you can browse the site at [http://localhost:8080](http://localhost:8080)  ð
 - Backpack for Laravel
 - barryvdh/laravel-cors
 - barryvdh/laravel-elfinder
+- artesaos/seotools
+- jenssegers/date
 
 
 License
