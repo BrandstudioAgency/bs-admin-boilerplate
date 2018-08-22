@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $user = App\User::first();
+
+    return format_date($user->created_at);
 });
