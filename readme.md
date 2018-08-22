@@ -63,6 +63,7 @@ Now you can browse the site at [http://localhost:8080](http://localhost:8080)  ð
 - barryvdh/laravel-elfinder
 - artesaos/seotools
 - jenssegers/date
+- cviebrock/eloquent-sluggable
 
 
 License

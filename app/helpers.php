@@ -25,3 +25,30 @@ use Jenssegers\Date\Date;
     }
  }
 
+ if(!function_exists('seo_generate')) {
+
+    /**
+     * Set seo metas and opengraph
+     *
+     * @param string $title
+     * @param string $description
+     * @param string $openGraphUrl
+     * @param string $canonical
+     * @param array $openGraphProperties
+     * @param string $twitterSite
+     * 
+     * @return void
+     */
+    function seo_generate(string $title, string $description, string $openGraphUrl, string $canonical, array $openGraphProperties = [], string $twitterSite): void
+    {
+        SEO::setTitle($title);
+        SEO::setDescription($description);
+        SEO::opengraph()->setUrl($openGraphUrl);
+        SEO::setCanonical($canonical);
+        foreach($openGraphProperties as $key => $value) {
+            SEO::opengraph()->addProperty($key, $value);
+        }
+        SEO::twitter()->setSite($twitterSite);
+    }
+ }
+

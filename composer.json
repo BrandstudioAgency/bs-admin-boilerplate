@@ -11,6 +11,7 @@
         "backpack/logmanager": "^2.3",
         "barryvdh/laravel-cors": "^0.11.0",
         "barryvdh/laravel-elfinder": "^0.4.0",
+        "cviebrock/eloquent-sluggable": "4.5",
         "fideloper/proxy": "^4.0",
         "jenssegers/date": "^3.4",
         "laravel/framework": "5.6.*",
